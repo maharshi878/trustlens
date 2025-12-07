@@ -89,15 +89,19 @@ Manipulation affects **everyone** — TrustLens protects everyone.
 
 ## 🧩 Technology Stack (Concept)
 
-Multi-Layer Forensics Engine
-│
-├── Vision Forensics (ELA, FFT, lighting, CA)
-├── AI Artifact Detection (CNN + Transformer)
-├── UI/Screenshot Structural Engine
-├── Metadata & Signature Scanner
-├── Reality Trace™ Reconstruction Engine
-└── Source Match Shield™ (database + pHash + OCR)
+⚙️ TrustLens Forensics Stack
 
+🔍 Visual Integrity Engine — ELA, FFT, lighting physics checks
+
+🤖 Synthetic Artifact Scanner — Hybrid CNN + Transformer detection
+
+🧩 UI & Document Pattern Analyzer — Fonts, layout rules, timestamp logic
+
+🪪 Metadata & Signature Intelligence — Compression + device trace analysis
+
+🧬 Reality Trace™ Constructor — Creation path probability mapping
+
+🌐 Source Match Shield™ — OCR, perceptual hash matching, known format recognition
 
 Latency Goal: **2–5s images | 6–12s video clips**  
 False positives target: **≤10%**
