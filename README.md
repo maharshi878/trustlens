@@ -1,90 +1,121 @@
 <div align="center">
 
 <img src="https://s6.imgcdn.dev/YT51NN.png" alt="TrustLens Logo" border="0">
+# TRUSTLENS — Digital Content Forensics Platform
 
-# 🔍 TRUSTLENS  
-### **Digital Content Forensics for Everyone**
+## 🔍 **Digital Truth. Verified.**
 
-**Detect. Verify. Trust.**  
-A next-generation platform built to verify the authenticity of images, screenshots, videos, and digital documents in a world where manipulation is effortless.
+*A next-generation platform built to verify the authenticity of photos, videos, receipts, screenshots, and documents in a world where manipulation is effortless.*
 
 ---
 
-</div>
+## 🚨 Why TrustLens Exists
 
-## 🚨 Why TrustLens?
+Deepfakes, AI-generated content, fake UPI receipts, edited chats, synthetic videos — digital misinformation is now indistinguishable from reality.
 
-The line between *real* and *fake* has never been thinner.
-
-AI tools like Sora, VEO, Midjourney, and Runway can generate hyper-realistic content.  
-Fake UPI receipts, edited WhatsApp chats, AI-generated videos, and fabricated school notices are spreading faster than truth.
-
-> **The world has tools to CREATE fake content — TrustLens is the tool that verifies it.**
+> The world has tools to create fake content.
+> **TrustLens is the tool that verifies it.**
 
 ---
 
 ## 🧠 What TrustLens Does
 
-When a user uploads content, TrustLens produces:
+When a user uploads content, TrustLens runs multilayer forensic checks and returns:
 
-| Feature | Description |
-|--------|------------|
-| **🧪 Authenticity Score** | Probability of content being real, edited, or fully generated. |
-| **⚠️ Anomaly Highlights** | Detects pixel inconsistencies, UI spacing errors, AI fingerprints, and more. |
-| **🧬 Reality Trace™** | Reconstructs how the content was likely created (camera → edit → screenshot → AI → export…). |
-| **🛡 TruthScore+™** | Shows risk impact (financial/social/identity/reputation). |
-| **🔁 Source Match Shield™** | Checks web presence, template matching, metadata, perceptual hash similarity. |
+* **Authenticity Score** — real, partially edited, or fully synthetic.
+* **Anomaly Highlights** — pixel inconsistencies, compression jumps, font mismatches.
+* **Reality Trace™** — reconstructs the most probable creation process.
+* **TruthScore+™** — evaluates potential real-world risk.
+* **Source Match Shield™** — template + web presence cross-check.
 
 ---
 
-## ✨ Core Capability Highlights
+## ✨ Capabilities
 
-- ✔ Image forensic analysis  
-- ✔ Video frame-level consistency detection  
-- ✔ Screenshot authenticity verification  
-- ✔ Document & UPI receipt template matching  
-- ✔ Deepfake + AI trace detection  
-- ✔ Metadata & recompression signature analysis  
-
----
-
-## 🚀 Why TrustLens Is Different
-
-Most tools answer:
-
-> ❓ “Is this AI?”
-
-TrustLens answers:
-
-> 🧬 “How was this created?”
-> ⚠️ “Can it cause harm?”
-> 🛡 “Should it be trusted?”
-
-TrustLens combines:
-
-- Forensic image science  
-- Computer vision  
-- AI artifact detection  
-- Context-aware rule systems  
-- Creation-path reconstruction  
-- Risk intelligence scoring  
-
-No existing AI detectors do this.
+| Category           | Supported | Notes                                              |
+| ------------------ | --------- | -------------------------------------------------- |
+| Images             | ✔         | AI & human edits detected                          |
+| Video              | ✔         | Frame-level temporal analysis                      |
+| Screenshots        | ✔         | UI spacing, font analysis, chat bubble consistency |
+| UPI Receipts       | ✔         | Template + structure verification                  |
+| Metadata Analysis  | ✔         | EXIF & recompression tracing                       |
+| Deepfake Detection | ✔         | Diffusion + GAN signatures                         |
 
 ---
 
-## 👥 Who Is This For?
+## 🧩 Technology Overview
 
-- Students & teachers  
-- Small businesses & sellers  
-- Parents & communities  
-- Investigators & journalists  
-- Social media users  
-- Anyone who wants certainty before sharing or believing content  
+```
+Multi-Layer Forensics Engine
+│
+├── Vision Forensics (ELA, FFT, lighting, CA)
+├── AI Artifact Detection (CNN + Transformer)
+├── UI/Screenshot Structural Engine
+├── Metadata & Signature Scanner
+├── Reality Trace™ Reconstruction Engine
+└── Source Match Shield™ (database + pHash + OCR)
+```
 
-Manipulation affects **everyone** — TrustLens protects everyone.
+Latency goal: **2–5s (Images)** | **6–12s (Video)**
+False positives target: **≤10%**
 
 ---
 
-## 🧩 Technology Stack (Concept)
+## 👥 Who It's For
 
+* Students checking "fake screenshot assignments"
+* Teachers verifying school announcements
+* Small sellers validating UPI payments
+* Parents confirming suspicious messages
+* Journalists & investigators
+* Anyone before sharing media online
+
+---
+
+## 🛣 Roadmap
+
+* [ ] MVP Scanner (Image + Screenshot)
+* [ ] Mobile App
+* [ ] Browser Extension
+* [ ] API for verification badges
+* [ ] Institutional dashboard
+* [ ] Public misinformation callout network
+
+---
+
+## 📦 Project Status
+
+| Phase                 | Status         |
+| --------------------- | -------------- |
+| Concept               | ✅ Complete     |
+| Prototype Design      | 🔄 In Progress |
+| Core Forensics System | 🛠 Building    |
+| Dataset Training      | ⏳ Pending      |
+| API & Integration     | 🔜 Planned     |
+
+---
+
+## 🏛 Ethics First
+
+* User content processed securely
+* No surveillance or assistive misuse
+* No detection bypassing assistance
+* User transparency & consent enforced
+
+---
+
+## ⚡ Vision
+
+> In the age of artificial reality,
+> knowing what is **true** becomes a form of defense.
+
+TrustLens is building that defense.
+
+---
+
+## ⭐ Support the Mission
+
+If this vision matters to you — **star, fork, or contribute.**
+
+Digital truth shouldn't be rare.
+It should be **expected.**
