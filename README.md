@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/user-attachments/assets/placeholder" width="120"/>
 
-Currently, two official plugins are available:
+# 🔍 TRUSTLENS  
+### **Digital Content Forensics for Everyone**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Detect. Verify. Trust.**  
+A next-generation platform built to verify the authenticity of images, screenshots, videos, and digital documents in a world where manipulation is effortless.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+## 🚨 Why TrustLens?
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The line between *real* and *fake* has never been thinner.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+AI tools like Sora, VEO, Midjourney, and Runway can generate hyper-realistic content.  
+Fake UPI receipts, edited WhatsApp chats, AI-generated videos, and fabricated school notices are spreading faster than truth.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+> **The world has tools to CREATE fake content — TrustLens is the tool that verifies it.**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 What TrustLens Does
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+When a user uploads content, TrustLens produces:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Feature | Description |
+|--------|------------|
+| **🧪 Authenticity Score** | Probability of content being real, edited, or fully generated. |
+| **⚠️ Anomaly Highlights** | Detects pixel inconsistencies, UI spacing errors, AI fingerprints, and more. |
+| **🧬 Reality Trace™** | Reconstructs how the content was likely created (camera → edit → screenshot → AI → export…). |
+| **🛡 TruthScore+™** | Shows risk impact (financial/social/identity/reputation). |
+| **🔁 Source Match Shield™** | Checks web presence, template matching, metadata, perceptual hash similarity. |
+
+---
+
+## ✨ Core Capability Highlights
+
+- ✔ Image forensic analysis  
+- ✔ Video frame-level consistency detection  
+- ✔ Screenshot authenticity verification  
+- ✔ Document & UPI receipt template matching  
+- ✔ Deepfake + AI trace detection  
+- ✔ Metadata & recompression signature analysis  
+
+---
+
+## 🚀 Why TrustLens Is Different
+
+Most tools answer:
+
+> ❓ “Is this AI?”
+
+TrustLens answers:
+
+> 🧬 “How was this created?”
+> ⚠️ “Can it cause harm?”
+> 🛡 “Should it be trusted?”
+
+TrustLens combines:
+
+- Forensic image science  
+- Computer vision  
+- AI artifact detection  
+- Context-aware rule systems  
+- Creation-path reconstruction  
+- Risk intelligence scoring  
+
+No existing AI detectors do this.
+
+---
+
+## 👥 Who Is This For?
+
+- Students & teachers  
+- Small businesses & sellers  
+- Parents & communities  
+- Investigators & journalists  
+- Social media users  
+- Anyone who wants certainty before sharing or believing content  
+
+Manipulation affects **everyone** — TrustLens protects everyone.
+
+---
+
+## 🧩 Technology Stack (Concept)
+
