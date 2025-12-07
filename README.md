@@ -91,17 +91,12 @@ Manipulation affects **everyone** — TrustLens protects everyone.
 
 Multi-Layer Forensics Engine
 │
-├── 🖼 Vision Analysis (ELA, FFT, Shadow/Light, CA checks)
-
-├── 🤖 AI Artifact Models (CNN + Transformer consistency models)
-
-├── 📄 Screenshot/UI Rule System (font, spacing, bubble structure, timestamp logic)
-
-├── 🪬 Metadata & Signature Scanner
-
-├── 🧬 Reality Trace Reconstruction Engine
-
-└── 🔁 Source Match + Dataset Cross Verification
+├── Vision Forensics (ELA, FFT, lighting, CA)
+├── AI Artifact Detection (CNN + Transformer)
+├── UI/Screenshot Structural Engine
+├── Metadata & Signature Scanner
+├── Reality Trace™ Reconstruction Engine
+└── Source Match Shield™ (database + pHash + OCR)
 
 
 Latency Goal: **2–5s images | 6–12s video clips**  
